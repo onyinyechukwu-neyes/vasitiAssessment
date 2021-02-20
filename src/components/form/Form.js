@@ -12,7 +12,7 @@ const CommentForm = (props) => {
             [name]: value
         })
     }
-    const handleSubmit =(e)=> {
+    const handleSubmit = (e)=> {  
         e.preventDefault()
         swal({title: "Thank you for sharing your story!.", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.", icon: 'success', button: "Close"});
         window.location.href = '/'
